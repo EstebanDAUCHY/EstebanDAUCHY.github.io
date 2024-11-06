@@ -104,7 +104,11 @@ const ArrayCompetences = [
             { nom: "JavaScript"},
             { nom: "Angular"},
             { nom: "TypeScript"},
-            { nom: "Flask.py"}
+            { nom: "Flask.py"},
+            { nom: "Laravel"},
+            { nom: "JavaSpring"},
+            { nom: "ReactJS"},
+            { nom: "NextJS"}
         ]
     },
     {
@@ -114,7 +118,10 @@ const ArrayCompetences = [
             { nom: "Java / Kotlin"},
             { nom: "JavaScript"},
             { nom: "C++"},
-            { nom: "Shell"}
+            { nom: "Shell"},
+            { nom: "Groovy"},
+            { nom: "SQL"},
+            { nom: "MongoDB"}
         ]
     },
     {
@@ -124,7 +131,9 @@ const ArrayCompetences = [
             { nom: "GitHub"},
             { nom: "VS Code"},
             { nom: "Docker"},
-            { nom: "JetBrains"}
+            { nom: "Suite JetBrains"},
+            { nom: "Control-M"},
+            { nom: "Jira"},
         ]
     }
 ]
