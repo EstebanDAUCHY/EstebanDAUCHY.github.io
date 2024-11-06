@@ -1,42 +1,173 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+span {
+    color: var(--main-color);
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.Intro {
+    display: flex;
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: center; /* Centre le contenu verticalement */
+    gap: 20px; /* Espace entre le texte et l'image */
+    padding: 20px;
+    background-color: var(--bg-color);
+    border-bottom: 2px solid #ddd;
+    text-align: center;
+    max-width: 1200px; /* Limite la largeur pour éviter l'extension sur grand écran */
+    margin: 0 auto; /* Centre le bloc Intro dans la page */
+}
+
+.Intro .text-content {
+    flex: 1;
+    text-align: left;
+}
+
+.Intro .text-content h1,
+.Intro .text-content h3,
+.Intro .text-content p {
+    margin: 10px 0;
+}
+
+/* Contact section */
+.Contact {
+    text-align: center;
+    padding: 30px;
+}
+
+.Contact h3 {
+    margin-bottom: 20px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.boxSocial {
+    width: 120px;
+    padding: 15px;
+    background-color: var(--second-bg-color);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--text-color);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.boxSocial:hover {
+    transform: scale(1.1);
+    background-color: var(--main-color);
+    transition : 0.5s ease;
+}
+
+/* About Me section */
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px;
+    background-color: var(--bg-color);
+}
+
+.about-me p {
+    max-width: 70%;
+    line-height: 1.6;
+}
+
+/* Section principale */
+.Competences {
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* Titre principal de la section */
+.Competences h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Conteneur des colonnes de compétences */
+.Competences .box-container {
+    display: flex;
+    justify-content: center; /* Centre les trois colonnes */
+    gap: 20px; /* Espacement entre les colonnes */
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Colonne de compétences */
+.column {
+    flex: 1;
+    max-width: 200px; /* Limite la largeur pour chaque colonne */
+}
+
+/* Style pour le titre de chaque colonne */
+.column h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Boîte individuelle pour chaque compétence */
+.competences-item {
+    background-color: var(--second-bg-color);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Projets section */
+.Projets {
+    padding: 30px;
+}
+
+.Projets h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Projets .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.Projets .box {
+    width: calc(33.33% - 20px);
+    background-color: var(--second-bg-color);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.2s;
+    text-align: center;
+}
+
+.Projets .box:hover {
+    transform: scale(1.05);
 }
