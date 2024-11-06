@@ -48,10 +48,16 @@ span {
     margin: 10px 0;
 }
 
+.Intro, .about-me {
+    width: 100%; /* Prend toute la largeur du conteneur parent */
+    box-sizing: border-box;
+}
+
 /* Contact section */
 .Contact {
     text-align: center;
     padding: 30px;
+    border-bottom: 2px solid var(--text-color);
 }
 
 .Contact h3 {
@@ -90,6 +96,7 @@ span {
     align-items: flex-start;
     padding: 30px;
     background-color: var(--bg-color);
+    border-bottom: 2px solid var(--text-color);
 }
 
 .about-me p {
@@ -101,6 +108,7 @@ span {
 .Competences {
     text-align: center;
     padding: 30px 0;
+    border-bottom: 2px solid var(--text-color);
 }
 
 /* Titre principal de la section */

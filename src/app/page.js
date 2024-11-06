@@ -176,11 +176,14 @@ export default function Home() {
                         (NSI) en plus des options Sciences de l'Ingénieur et Mathématiques dans un Bac général option
                         Euro Anglais.
                     </p>
-                    <p>Au fil des années passées à développer et à comprendre des systèmes d'informations complexes,
-                        grâce à la qualité
-                        des enseignements de mon IUT, j'ai pu obtenir une alternance au sein de CGI Lille, société de
-                        prestation de
-                        service canadienne.
+                    <p>Au fil des années passées à développer et à comprendre des systèmes d'informations complexes, grâce à la qualité des enseignements de mon
+                        université, j'ai pu obtenir une alternance au sein de CGI Lille, une société de prestation de service canadienne qui opère dans le monde entier.
+                        Dans cette entreprise pour laquelle je suis alternant, j'occupe actuellement le poste de DevOPS et développeur junior, ce qui me permet de maîtriser plus d'outils, de technologies, de langages, et bien plus encore...
+                    </p>
+                    <p>
+                        En dehors de mon travail, j'aime beaucoup le sport et plus particulièrement le volley au club de <a href="https://www.facebook.com/groups/volleycuinchy?locale=fr_FR" target="_blank">Cuinchy Volleyball</a> pour lequel je suis joueur mais également membre de la direction en tant que responsable de la communication numérique.
+                        Je suis également passionné par la musique en tout genre, tout type et toute époque, ayant tout de même une légère préférence pour le Rock et le Metal.
+                        J'aime également sortir avec des amis, rencontrer de nouvelles personnes, et profiter lorsque j'ai du temps libre avec des personnes qui me sont chères.
                     </p>
                 </div>
                 <div className="image-container">
