@@ -152,7 +152,6 @@ export default function Home() {
                     </p>
                 </div>
             </div>
-
             <div className="Contact">
                 <h3>Contactez-<span>moi</span> :</h3>
                 <div className="box-container">
@@ -163,7 +162,6 @@ export default function Home() {
                     ))}
                 </div>
             </div>
-
             <div className="about-me">
                 <div className="text-content">
                     <h3>A propos de <span>moi</span></h3>
@@ -187,7 +185,7 @@ export default function Home() {
                     </p>
                 </div>
                 <div className="image-container">
-                    <img src="../../images/Moi (1).svg" alt="Moi"/>
+                    <img src="../../images/Moi.webp" alt="Moi"/>
                 </div>
             </div>
 
