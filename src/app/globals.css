@@ -202,13 +202,13 @@ span {
     }
 
     .about-me .text-content {
-        max-width: 90%; /* Limite la largeur du texte à 90% de l'écran */
-        margin: 0 auto; /* Centre le texte */
-        padding: 0 10px; /* Ajoute un peu d'espace sur les côtés */
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 0 10px;
     }
 
     .about-me .image-container {
-        max-width: 80%; /* Ajuste la largeur de l'image */
-        margin: 20px auto 0; /* Centre l'image */
+        max-width: 80%;
+        margin: 20px auto 0;
     }
 }
