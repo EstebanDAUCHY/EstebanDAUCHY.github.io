@@ -91,6 +91,7 @@ span {
 
 .about-me {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
     padding: 30px;
@@ -98,28 +99,26 @@ span {
     border-bottom: 2px solid var(--text-color);
 }
 
-.about-me p {
-    max-width: 70%;
-    line-height: 1.6;
+.about-me .text-content {
+    max-width: 700px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.about-me .image-container {
+    max-width: 300px;
+}
+
+.about-me .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
 
 .about-me h3 {
     font-size: 2rem;
     margin-bottom: 20px;
-}
-
-.about-me .text-content {
-    flex: 1;
-}
-
-.about-me .image-container {
-    width: 30%;
-}
-
-.about-me .image-container img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
+    text-align: center;
 }
 
 .Competences {
@@ -196,15 +195,20 @@ span {
     .Projets .box {
         width: 100%;
     }
-
     .about-me {
-        flex-direction: column; /* Stacks text and image vertically */
-        align-items: center; /* Center content in smaller screens */
-        text-align: center; /* Center-align text content */
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-me .text-content {
+        max-width: 90%; /* Limite la largeur du texte à 90% de l'écran */
+        margin: 0 auto; /* Centre le texte */
+        padding: 0 10px; /* Ajoute un peu d'espace sur les côtés */
     }
 
     .about-me .image-container {
-        width: 100%; /* Full width for image */
-        margin-top: 20px; /* Adds spacing between text and image */
+        max-width: 80%; /* Ajuste la largeur de l'image */
+        margin: 20px auto 0; /* Centre l'image */
     }
 }
