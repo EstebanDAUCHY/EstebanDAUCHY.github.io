@@ -125,22 +125,13 @@ export default function Home() {
             <div className="about-me">
                 <div className="text-content">
                     <h3>A propos de <span>moi</span></h3>
-                    <p>Je suis actuellement en troisième année de BUT informatique avec le parcours développement
-                        d'application
-                        à <span>l'université de Lens (62300)</span>. Mes envies de m'orienter vers l'informatique ont commencé en
-                        première au
-                        <span>lycée André Malraux de Béthune (62400)</span> lorsque j'ai sélectionné l'option Numérique et Sciences
-                        de l'informatique
-                        (NSI) en plus des options Sciences de l'Ingénieur et Mathématiques dans un Bac général option
-                        Euro Anglais.
+                    <p>Je suis actuellement en troisième année de BUT informatique avec le parcours développement d'application à<span>l'université de Lens (62300)</span>.
+                        Mes envies de m'orienter vers l'informatique ont commencé en première au <span> lycée André Malraux de Béthune (62400)</span> lorsque j'ai sélectionné
+                        l'option Numérique et Sciences de l'informatique (NSI) en plus des options Sciences de l'Ingénieur et Mathématiques dans un Bac général option Euro Anglais.
                     </p>
-                    <p>Au fil des années passées à développer et à comprendre des systèmes d'informations complexes,
-                        grâce à la qualité des enseignements de mon
-                        université, j'ai pu obtenir une alternance au sein de <span>CGI Lille</span>, une société de prestation de
-                        service canadienne qui opère dans le monde entier.
-                        Dans cette entreprise pour laquelle je suis <span>alternant</span>, j'occupe actuellement le poste de <span>DevOPS</span>
-                         et <span>développeur junior</span>, ce qui me permet de maîtriser plus d'outils, de technologies, de
-                        langages, et bien plus encore...
+                    <p>Au fil des années passées à développer et à comprendre des systèmes d'informations complexes, grâce à la qualité des enseignements de mon université,
+                        j'ai pu obtenir une alternance au sein de <span>CGI Lille</span>, une société de prestation de service canadienne qui opère dans le monde entier.
+                        Dans cette entreprise pour laquelle je suis <span>alternant</span>, j'occupe actuellement le poste de <span>DevOPS</span> et <span>développeur junior</span>, ce qui me permet de maîtriser plus d'outils, de technologies, de langages, et bien plus encore...
                     </p>
                     <p>
                         En dehors de mon travail, j'aime beaucoup le sport et plus particulièrement le volley au club
