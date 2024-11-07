@@ -61,6 +61,7 @@ span {
 }
 
 .Contact h3 {
+    font-size: 2rem;
     margin-bottom: 20px;
 }
 
@@ -102,6 +103,11 @@ span {
 .about-me p {
     max-width: 70%;
     line-height: 1.6;
+}
+
+.about-me h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
 
 /* Section principale */
@@ -156,6 +162,7 @@ span {
 
 .Projets h3 {
     text-align: center;
+    font-size: 2rem;
     margin-bottom: 20px;
 }
 
