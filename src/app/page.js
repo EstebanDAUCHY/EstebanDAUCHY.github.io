@@ -105,7 +105,7 @@ export default function Home() {
                     <h3>Bienvenue sur mon portfolio !</h3>
                     <h1>Je suis <span>Esteban DAUCHY</span></h1>
                     <h3>et je suis <span>étudiant alternant en informatique</span></h3>
-                    <p>Étudiant en deuxième année d'informatique avec l'option développement d'application, je suis
+                    <p>Étudiant en troisième année d'informatique avec l'option développement d'application, je suis
                         fier de vous faire découvrir mon Portfolio !</p>
                     <p>Réalisé dans le cadre de mes études, je me présente en mettant en œuvre mes compétences en
                         <span> développement FrontEnd</span>, <span>Ecodéveloppement</span> et <span>NextJS</span>.
@@ -125,7 +125,7 @@ export default function Home() {
             <div className="about-me">
                 <div className="text-content">
                     <h3>A propos de <span>moi</span></h3>
-                    <p>Je suis actuellement en troisième année de BUT informatique avec le parcours développement d'application à<span>l'université de Lens (62300)</span>.
+                    <p>Je suis actuellement en troisième année de BUT informatique avec le parcours développement d'application à <span>l'université de Lens (62300)</span>.
                         Mes envies de m'orienter vers l'informatique ont commencé en première au <span> lycée André Malraux de Béthune (62400)</span> lorsque j'ai sélectionné
                         l'option Numérique et Sciences de l'informatique (NSI) en plus des options Sciences de l'Ingénieur et Mathématiques dans un Bac général option Euro Anglais.
                     </p>
